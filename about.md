@@ -4,12 +4,16 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Fred Spreen is a software developer in the United States with a variety of
+interests in the fields of software, mathematics, information technology, and
+anything else that can be done with a computer.   In 2011 he obtained his
+master's degree in computer science with a focus on secure software systems.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+He has a special preference for the Linux operating system as his primary
+workspace.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+This blog represents his thoughts and opinions on various matters related to the
+above interests.  It is not necessarily an accurate description of his desk.
+
+Fred uses GitHub under the username {%include icon-github.html
+username="fspreen" %} which hosts this site, among other things.
