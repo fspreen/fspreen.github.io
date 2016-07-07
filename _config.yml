@@ -1,0 +1,48 @@
+# Jekyll site configuration file
+# NOT reloaded automatically by 'jekyll serve'; restart the process if changing
+# (according to Jekyll 3.0.1, 2016-07-07)
+
+##### Overridden Settings #####
+# Settings from GitHub Pages (changes will be overridden at hosting)
+# https://help.github.com/articles/configuring-jekyll/#configuration-settings-you-cannot-change
+# (retrieved 2016-07-07)
+lsi: false
+safe: true
+#source: [your repo's top level directory]
+incremental: false
+highlighter: rouge
+gist:
+    noscript: false
+# Note to self:  'rouge' is a code highlighter for Ruby; it was installed as a
+# dependency of the 'jekyll' package as 'ruby-rouge'
+
+##### Global Settings #####
+# I don't live here, I just use their clocks. :)
+timezone: America/New_York
+encoding: utf-8
+
+##### Server Settings #####
+# subpath of site, e.g. /blog ; does not include hostname
+baseurl: ""
+detach: false
+
+##### Conversion Settings #####
+markdown: kramdown
+kramdown:
+    input: GFM
+    hard_wrap: false
+    # Turn off smart quotes
+    smart_quotes: ["apos", "apos", "quot", "quot"]
+
+##### Other Settings #####
+# (came in the default file; Jekyll 3.0.1, 2016-07-07)
+# TODO clean this section up a bit more
+# Site settings
+title: Loose Notes
+#email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  Fred Spreen writes about software, Linux, computer security, and other bits
+  of information technology.
+url: "https://fspreen.github.io" # the base hostname & protocol for your site
+#twitter_username: jekyllrb
+github_username:  fspreen
