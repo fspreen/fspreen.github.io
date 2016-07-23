@@ -38,7 +38,7 @@ kramdown:
 # (came in the default file; Jekyll 3.0.1, 2016-07-07)
 # TODO clean this section up a bit more
 # Site settings
-title: Loose Notes
+title: Loose Pages
 #email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Fred Spreen writes about software, Linux, computer security, and other bits
