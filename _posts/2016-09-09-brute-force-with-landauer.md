@@ -68,10 +68,10 @@ $$
 
 $$
 \frac{
-    \ln{
+    \ln{\left(
         \frac{E}
             {kT\ln{2}}
-    }
+    \right)}
 }
 {\ln{2}}
 = n
@@ -93,28 +93,25 @@ total world energy consumption was $$3.89 \times 10^{20}$$ joules.  Let's say ou
 of this energy into the hypothetical key-cracker, running at a cool 20°C (293K):
 
 $$
+\require{cancel}
 \frac{
-    \ln{
+    \ln{\left(
         \frac{3.89 \times 10^{20}}
         {(1.381 \times 10^{-23}) \cdot 293 \cdot \ln{2}}
-    }
+    \right)}
 }
 {\ln{2}}
-= 95.1
+= \cancel{95.1}
 $$
 
-Not bad!  So if we have an encryption key with at least 96 bits, it would be
+~~Not bad!  So if we have an encryption key with at least 96 bits, it would be
 physically impossible to brute-force the key without access to a year's worth of
 global energy production.  This is also much smaller than modern key-size
 recommendations, so there's even some margin for error in things like AES
-or Twofish (128-bit key sizes).
+or Twofish (128-bit key sizes).~~
 
-Given the caveats and cost overhead, literally any other approach would be
-cheaper and easier for our attacker.  Depending on power, patience, and audacity
-our attacker would most likely focus on seizing hardware, interrogating users,
-or even sabotaging public encryption infrastructure.
-
-Despite it's name, "brute force" is really the _least_ frightening option.
+_14 September 2016:  Thanks to a typo, this value is incorrect. See my next
+post._
 
 [Landauer's principle]: https://en.wikipedia.org/wiki/Landauer's_principle
 [Boltzmann constant]: https://en.wikipedia.org/wiki/Boltzmann_constant
