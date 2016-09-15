@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Correction, Brute Force is Possible
+title:      Corrections on Brute Force
 date:       Wed, 14 Sep 2016 19:27:12 -0400
 ---
 Last week I discussed Landauer's principle and attempted to determine how long
