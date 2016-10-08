@@ -48,6 +48,22 @@ img {
 }
 
 
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td,
+th {
+  padding: 0;
+  border-color: #dddddd;
+  border-width: 1px;
+  border-style: solid;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
 
 /**
  * Figures
